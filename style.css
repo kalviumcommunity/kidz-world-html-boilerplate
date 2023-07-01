@@ -130,3 +130,27 @@
     border-radius: 30px;
     margin-top: 5px;
 }
+
+
+@media screen and (max-width:400px) {
+    #kw_banner_des {
+        margin-top: -100px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        font-size: 0.5rem;
+    }
+
+    
+.flex_div_inner 
+, .flex_div_inner2 {
+    display: block;
+
+}
+
+.flex_div_inner > .flex_box {
+    width: 85%;
+    margin-bottom: 100px;
+}
+
+
+}
